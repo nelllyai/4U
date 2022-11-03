@@ -9,10 +9,18 @@
   color: #fff;
 }
 
+.button_small-padding {
+  padding: 10px 26px;
+}
+
 @media (min-width: 1024px) {
   .button {
     padding: 11px 49px;
     font-size: 20px;
     line-height: 23px;
+  }
+
+  .button_small-padding {
+    padding: 11px 38px;
   }
 }

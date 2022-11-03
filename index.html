@@ -41,7 +41,6 @@
 
   <main class="main">
 
-
     <!-- <section class="section about">
       <div class="container">
         <h2 class="subtitle about__title">Уникальный заголовок для преимущества компании</h2>
@@ -73,34 +72,32 @@
       </div>
     </section> -->
 
-    <!-- <section class="section contact">
-      <h2 class="subtitle contact__title">Остались вопросы?</h2>
-
-      <form class="contact__form" action="">
-        <fieldset class="contact__fieldset">
-          <legend class="contact__legend">Оставьте номер телефона, и мы перезвоним вам</legend>
-
-          <label class="contact__label">
-
-          </label>
-          <label class="contact__label">
-
-          </label>
-          <label class="contact__label">
-
-          </label>
-        </fieldset>
-
-        <button class="button" type="submit">Позвоните мне</button>
-      </form>
-
-      <p class="contact__agreement">
-        Я даю своё <a class="link" href="#">согласие</a> на обработку моих персональных данных.
-      </p>
+  <section class="section contact">
+      <div class="container">
+        <h2 class="subtitle">Остались вопросы?</h2>
+  
+        <form class="contact__form" action="">
+          <fieldset class="contact__fieldset">
+            <legend class="contact__legend">Оставьте номер телефона, и мы перезвоним вам</legend>
+  
+            <div class="contact__input-block">
+              <input class="contact__input" type="text" placeholder="Ваше имя" name="name" required>
+              <input class="contact__input" type="tel" placeholder="Телефон" name="phone" required>
+              <input class="contact__input" type="email" placeholder="E-mail" name="email" required>
+            </div>
+          </fieldset>
+  
+          <button class="button button_small-padding" type="submit">Позвоните мне</button>
+        </form>
+  
+        <p class="contact__agreement">
+          Я даю своё <a class="contact__link" href="#">согласие</a> на обработку моих персональных данных.
+        </p>
+      </div>
     </section>
   </main>
 
-  <footer class="section footer">
+  <!-- <footer class="section footer">
     <div class="container">
       <div class="footer__content">
         <img class="logo" src="img/logo.svg" alt="Логотип компании">
