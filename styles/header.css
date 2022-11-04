@@ -26,6 +26,8 @@
 }
 
 .header__description {
+  margin: 0 auto;
+  max-width: 480px;
   font-size: 14px;
   line-height: 20px;
 }
@@ -46,6 +48,7 @@
   }
 
   .header__description {
+    max-width: 754px;
     font-size: 18px;
     line-height: 25px;
   }
@@ -67,6 +70,7 @@
   }
 
   .header__description {
+    max-width: 960px;
     font-size: 22px;
     line-height: 31px;
   }

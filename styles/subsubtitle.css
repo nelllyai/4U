@@ -1,0 +1,67 @@
+.subsubtitle {
+  position: relative;
+  margin-bottom: 26px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.subsubtitle::before {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 1px;
+  top: 50%;
+  left: calc(50% - 3 * 20px);
+  background-color: #383A4C;
+}
+
+.subsubtitle::after {
+  content: "";
+  position: absolute;
+  width: 20px;
+  height: 1px;
+  top: 50%;
+  right: calc(50% - 3 * 20px);
+  background-color: #383A4C;
+}
+
+@media (min-width: 1024px) {
+  .subsubtitle {
+    margin-bottom: 33px;
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  .subsubtitle::before {
+    width: 40px;
+    height: 2px;
+    top: calc(50% - 1px);
+    left: calc(50% - 20px - 40px - 40px / 2);
+  }
+
+  .subsubtitle::after {
+    width: 40px;
+    height: 2px;
+    top: calc(50% - 1px);
+    right: calc(50% - 20px - 40px - 40px / 2);
+  }
+}
+
+@media (min-width: 1024px) {
+  .subsubtitle {
+    margin-bottom: 35px;
+    font-size: 22px;
+    line-height: 26px;
+  }
+
+  .subsubtitle::before {
+    width: 43px;
+    left: calc(50% - 23px - 43px - 43px / 2);
+  }
+
+  .subsubtitle::after {
+    width: 43px;
+    right: calc(50% - 23px - 43px - 43px / 2);
+  }
+}
