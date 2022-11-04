@@ -13,6 +13,13 @@
   padding-bottom: 50px;
 }
 
+.header__contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 65px;
+}
+
 .header__content {
   margin: 0 auto;
   margin-bottom: 54px;
@@ -27,6 +34,10 @@
   .header__container {
     padding-top: 26px;
     padding-bottom: 35px;
+  }
+
+  .header__contacts {
+    margin-bottom: 70px;
   }
 
   .header__content {
@@ -44,6 +55,10 @@
   .header__container {
     padding-top: 40px;
     padding-bottom: 85px;
+  }
+
+  .header__contacts {
+    margin-bottom: 120px;
   }
 
   .header__content {

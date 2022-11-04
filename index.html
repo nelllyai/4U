@@ -17,12 +17,15 @@
 <body>
   <header class="section header">
     <div class="container header__container">
-      <div class="contacts">
+      <div class="header__contacts">
         <img class="logo" src="img/logo.svg" alt="Логотип компании">
-        <img class="icon" src="img/phone.svg" alt="Иконка телефона">
-        <div class="contacts__container">
-          <p class="contacts__phone">+7 (962) 556 - 1234</p>
-          <a class="contacts__link" href="#">Перезвоните мне</a>
+        <a class="phone" href="tel:89625561234">
+          <img class="phone__icon" src="img/phone.svg" alt="Иконка телефона">
+        </a>
+
+        <div class="call-me">
+          <p class="call-me__phone">+7 (962) 556 - 1234</p>
+          <a class="call-me__link" href="#contact">Перезвоните мне</a>
         </div>
       </div>
 
@@ -72,24 +75,24 @@
       </div>
     </section> -->
 
-  <section class="section contact">
-      <div class="container">
+    <section class="section contact" id="contact">
+      <div class="container contact__container">
         <h2 class="subtitle">Остались вопросы?</h2>
-  
+
         <form class="contact__form" action="">
           <fieldset class="contact__fieldset">
             <legend class="contact__legend">Оставьте номер телефона, и мы перезвоним вам</legend>
-  
+
             <div class="contact__input-block">
               <input class="contact__input" type="text" placeholder="Ваше имя" name="name" required>
               <input class="contact__input" type="tel" placeholder="Телефон" name="phone" required>
               <input class="contact__input" type="email" placeholder="E-mail" name="email" required>
             </div>
           </fieldset>
-  
+
           <button class="button button_small-padding" type="submit">Позвоните мне</button>
         </form>
-  
+
         <p class="contact__agreement">
           Я даю своё <a class="contact__link" href="#">согласие</a> на обработку моих персональных данных.
         </p>
@@ -97,28 +100,37 @@
     </section>
   </main>
 
-  <!-- <footer class="section footer">
-    <div class="container">
+  <footer class="section footer">
+    <div class="container footer__container">
       <div class="footer__content">
-        <img class="logo" src="img/logo.svg" alt="Логотип компании">
+        <div class="footer__info">
+          <img class="logo" src="img/logo.svg" alt="Логотип компании">
 
-        <div class="footer__copyright">
-          <p class="footer__text">
-            © 2022 XXXcompany.
-          </p>
-          <p class="footer__text">
-            Все права защищены.
-          </p>
+          <div class="footer__copyright">
+            <p class="footer__text">
+              © 2022 XXXcompany.
+            </p>
+            <p class="footer__text">
+              Все права защищены.
+            </p>
+          </div>
         </div>
 
-        <a class="phone" href="">
+        <a class="phone" href="tel:89625561234">
           <img class="icon" src="img/phone.svg" alt="Иконка телефона">
         </a>
-      </div>
 
-      <div class="footer__author">Сделано Ивановым Иваном</div>
+        <div class="footer__author">Сделано Ивановым Иваном</div>
+
+        <div class="call-me">
+          <p class="call-me__phone">+7 (962) 556 - 1234</p>
+          <a class="call-me__link" href="#contact">Перезвоните мне</a>
+        </div>
+      </div>
     </div>
-  </footer> -->
+  </footer>
+
+  <div class="section author">Сделано Ивановым Иваном</div>
 </body>
 
 </html>

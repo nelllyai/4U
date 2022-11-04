@@ -1,9 +1,12 @@
 .contact {
-  padding-top: 30px;
-  padding-bottom: 30px;
   background-image: url("../img/contact-screen.jpg");
   color: #fff;
   text-align: center;
+}
+
+.contact__container {
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .contact__form {
@@ -11,8 +14,6 @@
   margin-bottom: 30px;
   max-width: 290px;
 }
-
-.contact__fieldset {}
 
 .contact__legend {
   margin-bottom: 35px;
@@ -55,9 +56,9 @@
 }
 
 @media (min-width: 1024px) {
-  .contact {
-    padding-top: 70px;
-    padding-bottom: 56px;
+  .contact__container {
+    padding-top: 35px;
+    padding-bottom: 41px;
   }
 
   .contact__form {
@@ -94,8 +95,8 @@
 }
 
 @media (min-width: 1600px) {
-  .contact {
-    padding-bottom: 70px;
+  .contact__container {
+    padding-bottom: 35px;
   }
 
   .contact__form {

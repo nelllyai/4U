@@ -1,11 +1,15 @@
-.icon {
+.phone {
+  display: block;
+}
+
+.phone__icon {
   height: 24px;
   width: 24px;
   border-radius: 50%;
 }
 
 @media (min-width: 1024px) {
-  .icon {
+  .phone {
     display: none;  
   }
 }

@@ -1,21 +1,15 @@
-.contacts {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 65px;
-}
-
-.contacts__container {
+.call-me {
   display: none;
+  text-align: center;
 }
 
-.contacts__phone {
+.call-me__phone {
   margin-bottom: 4px;
   font-size: 21px;
   line-height: 25px;
 }
 
-.contacts__link {
+.call-me__link {
   font-size: 13px;
   line-height: 15px;
   text-decoration: underline;
@@ -23,27 +17,19 @@
 }
 
 @media (min-width: 1024px) {
-  .contacts {
-    margin-bottom: 70px;
-  }
-
-  .contacts__container {
+  .call-me {
     display: block;
   }
 }
 
 @media (min-width: 1600px) {
-  .contacts {
-    margin-bottom: 120px;
-  }
-
-  .contacts__phone {
+  .call-me__phone {
     margin-bottom: 3px;
     font-size: 24px;
     line-height: 28px;
   }
 
-  .contacts__link {
+  .call-me__link {
     font-size: 16px;
     line-height: 19px;
   }

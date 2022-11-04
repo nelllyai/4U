@@ -1,0 +1,14 @@
+.author {
+  background-color: #2A2C3F;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 17px;
+  color: #94959F;
+  text-align: center;
+}
+
+@media (min-width: 1024px) {
+  .author {
+    display: none;
+  }
+}
