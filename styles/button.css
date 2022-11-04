@@ -1,5 +1,5 @@
 .button {
-  padding: 12px 39px;
+  padding: 10px 37px;
   background: #15A9CB;
   box-shadow: 0px 4px 25px rgba(21, 169, 203, 0.3);
   border-radius: 50px;
@@ -10,12 +10,12 @@
 }
 
 .button_small-padding {
-  padding: 10px 26px;
+  padding: 10px 29px;
 }
 
 @media (min-width: 1024px) {
   .button {
-    padding: 11px 49px;
+    padding: 13px 49px;
     font-size: 20px;
     line-height: 23px;
   }

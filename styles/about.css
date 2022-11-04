@@ -4,11 +4,11 @@
 
 .about__container {
   padding-top: 15px;
-  padding-bottom: 45px;
+  padding-bottom: 49px;
 }
 
 .about__title {
-  margin-bottom: 15px;
+  margin-bottom: 17px;
 }
 
 .about__text {
@@ -23,7 +23,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 40px;
+  gap: 42px;
   counter-reset: advantage 0;
 }
 
@@ -61,7 +61,8 @@
 
 @media (min-width: 1024px) {
   .about__container {
-    padding-bottom: 35px;
+    padding-top: 33px;
+    padding-bottom: 36px;
   }
 
   .about__title {
@@ -69,7 +70,7 @@
   }
 
   .about__text {
-    margin-bottom: 50px;
+    margin-bottom: 58px;
     max-width: 666px;
     font-size: 16px;
     line-height: 23px;
@@ -97,6 +98,7 @@
   }
 
   .about__text {
+    margin-bottom: 57px;
     max-width: 724px;
     font-size: 18px;
     line-height: 25px;
@@ -107,13 +109,14 @@
   }
 
   .about__item {
+    gap: 16px;
     max-width: 196px;
     font-size: 20px;
     line-height: 28px;
   }
 
   .about__item::before {
-    padding-top: 32px;
+    padding-top: 37px;
     width: 122px;
     height: 122px;
     font-size: 57px;

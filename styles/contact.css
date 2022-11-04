@@ -15,8 +15,12 @@
   max-width: 290px;
 }
 
+.contact__fieldset {
+  margin-bottom: 45px;
+}
+
 .contact__legend {
-  margin-bottom: 35px;
+  margin-bottom: 36px;
   font-weight: 500;
   font-size: 12px;
   line-height: 14px;
@@ -42,7 +46,7 @@
 }
 
 .contact__input:last-child {
-  margin-bottom: 45px;
+  margin-bottom: 0;
 }
 
 .contact__agreement {
@@ -59,15 +63,19 @@
 @media (min-width: 1024px) {
   .contact__container {
     padding-top: 35px;
-    padding-bottom: 41px;
+    padding-bottom: 22px;
   }
 
   .contact__form {
     max-width: 475px;
   }
 
-  .contact__legend {
+  .contact__fieldset {
     margin-bottom: 50px;
+  }
+
+  .contact__legend {
+    margin-bottom: 49px;
     font-size: 20px;
     line-height: 23px;
   }
@@ -77,8 +85,8 @@
   }
 
   .contact__input {
-    padding: 8px 23px;
-    margin-bottom: 20px;
+    padding: 19px 23px;
+    margin-bottom: 17px;
     height: 39px;
     border-width: 2px;
     font-size: 20px;
@@ -86,7 +94,7 @@
   }
 
   .contact__input:last-child {
-    margin-bottom: 50px;
+    margin-bottom: 0;
   }
 
   .contact__agreement {
@@ -105,7 +113,12 @@
     max-width: 513px;
   }
 
+  .contact__fieldset {
+    margin-bottom: 53px;
+  }
+
   .contact__legend {
+    margin-bottom: 52px;
     font-size: 22px;
     line-height: 26px;
   }
