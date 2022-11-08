@@ -60,10 +60,10 @@
   text-underline-offset: 3px;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .contact__container {
-    padding-top: 35px;
-    padding-bottom: 22px;
+    padding-top: 39px;
+    padding-bottom: 29px;
   }
 
   .contact__form {
@@ -103,9 +103,9 @@
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1366px) {
   .contact__container {
-    padding-bottom: 35px;
+    padding-bottom: 43px;
   }
 
   .contact__form {

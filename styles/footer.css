@@ -34,10 +34,10 @@
   color: #9798A5;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .footer__container {
-    padding-top: 4px;
-    padding-bottom: 14px;
+    padding-top: 7px;
+    padding-bottom: 18px;
   }
 
   .footer__text {
@@ -50,9 +50,9 @@
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1366px) {
   .footer__container {
-    padding-top: 11px;
+    padding-top: 15px;
     padding-bottom: 14px;
   }
 

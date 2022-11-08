@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 768px) {
   .subtitle {
     margin-bottom: 16px;
     font-size: 32px;
@@ -14,7 +14,7 @@
   }
 }
 
-@media (min-width: 1600px) {
+@media (min-width: 1366px) {
   .subtitle {
     margin-bottom: 17px;
     font-size: 35px;
