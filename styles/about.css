@@ -1,5 +1,4 @@
 .about {
-  /* padding-top: 12px; */
   text-align: center;
 }
 
@@ -21,11 +20,16 @@
 }
 
 .about__list {
+  display: none;
+}
+
+.about__slider {
+  position: relative;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  gap: 42px;
-  counter-reset: advantage 0;
+  justify-content: center;
+  margin: 0 auto;
+  max-width: 460px;
 }
 
 .about__item {
@@ -37,11 +41,25 @@
   font-weight: 500;
   font-size: 18px;
   line-height: 25px;
-  counter-increment: advantage 1;
+}
+
+#first-slide::before {
+  content: "1";
+}
+
+#second-slide::before {
+  content: "2";
+}
+
+#third-slide::before {
+  content: "3";
+}
+
+#fourth-slide::before {
+  content: "4";
 }
 
 .about__item::before {
-  content: counter(advantage);
   padding-top: 16px;
   width: 104px;
   height: 104px;
@@ -50,7 +68,52 @@
   font-weight: 500;
   font-size: 52px;
   line-height: 73px;
-  color: #fff
+  color: #fff;
+}
+
+#advantage-1:checked~#first-slide,
+#advantage-2:checked~#second-slide,
+#advantage-3:checked~#third-slide,
+#advantage-4:checked~#fourth-slide {
+  display: flex;
+}
+
+.about__slider-button {
+  display: none;
+}
+
+.about__item_slide {
+  display: none;
+}
+
+.about__previous,
+.about__next {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 38px;
+  height: 38px;
+  top: calc(50% - 38px / 2);
+  z-index: 3;
+  border-radius: 50px;
+  background-color: #fff;
+  box-shadow: 4px 4px 25px rgba(0, 0, 0, 0.05);
+  cursor: pointer;
+}
+
+.about__previous:active,
+.about__next:active {
+  background-color: #797CBC;
+  color: #fff;
+}
+
+.about__previous {
+  left: 0;
+}
+
+.about__next {
+  right: 0;
 }
 
 .about__counter {
@@ -78,14 +141,27 @@
   }
 
   .about__list {
+    display: flex;
+    align-items: center;
     flex-direction: row;
     justify-content: space-between;
+    gap: 42px;
     margin: 0 auto;
     max-width: 870px;
+    counter-reset: advantage 0;
+  }
+
+  .about__slider {
+    display: none;
   }
 
   .about__item {
     max-width: 180px;
+    counter-increment: advantage 1;
+  }
+
+  .about__item::before {
+    content: counter(advantage);
   }
 }
 
