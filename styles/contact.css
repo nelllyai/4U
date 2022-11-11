@@ -60,7 +60,7 @@
   text-underline-offset: 3px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 796px) {
   .contact__container {
     padding-top: 39px;
     padding-bottom: 29px;

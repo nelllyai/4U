@@ -4,7 +4,7 @@
   max-width: 1800px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 796px) {
   .container {
     padding: 0 30px;
   }

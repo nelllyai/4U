@@ -16,7 +16,7 @@
   text-underline-offset: 6px;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 796px) {
   .call-me {
     display: block;
   }

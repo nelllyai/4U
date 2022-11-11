@@ -6,7 +6,7 @@
   text-align: center;
 }
 
-@media (min-width: 768px) {
+@media (min-width: 796px) {
   .subtitle {
     margin-bottom: 16px;
     font-size: 32px;
