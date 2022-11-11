@@ -28,7 +28,7 @@
 
 @media (min-width: 796px) {
   .subsubtitle {
-    margin-bottom: 33px;
+    margin-bottom: 30px;
     font-size: 20px;
     line-height: 23px;
   }
@@ -36,15 +36,15 @@
   .subsubtitle::before {
     width: 40px;
     height: 2px;
-    top: calc(50% - 1px);
-    left: calc(50% - 20px - 40px - 40px / 2);
+    top: calc(50% - 2px);
+    left: calc(50% - 88px);
   }
 
   .subsubtitle::after {
     width: 40px;
     height: 2px;
-    top: calc(50% - 1px);
-    right: calc(50% - 20px - 40px - 40px / 2);
+    top: calc(50% - 2px);
+    right: calc(50% - 88px);
   }
 }
 
@@ -56,12 +56,12 @@
   }
 
   .subsubtitle::before {
-    width: 43px;
-    left: calc(50% - 23px - 43px - 43px / 2);
+    width: 45px;
+    left: calc(50% - 95px);
   }
 
   .subsubtitle::after {
-    width: 43px;
-    right: calc(50% - 23px - 43px - 43px / 2);
+    width: 45px;
+    right: calc(50% - 95px);
   }
 }

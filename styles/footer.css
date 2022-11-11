@@ -1,11 +1,7 @@
 .footer {
+  padding: 24px 0;
   background-color: #2F324B;
   color: #fff;
-}
-
-.footer__container {
-  padding-top: 7px;
-  padding-bottom: 9px;
 }
 
 .footer__content {
@@ -35,9 +31,8 @@
 }
 
 @media (min-width: 796px) {
-  .footer__container {
-    padding-top: 7px;
-    padding-bottom: 18px;
+  .footer {
+    padding: 37px 0 48px;
   }
 
   .footer__text {
@@ -51,9 +46,8 @@
 }
 
 @media (min-width: 1366px) {
-  .footer__container {
-    padding-top: 15px;
-    padding-bottom: 14px;
+  .footer {
+    padding: 44px 0;
   }
 
   .footer__author {

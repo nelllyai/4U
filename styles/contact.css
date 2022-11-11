@@ -4,11 +4,6 @@
   text-align: center;
 }
 
-.contact__container {
-  padding-top: 15px;
-  padding-bottom: 15px;
-}
-
 .contact__form {
   margin: 0 auto;
   margin-bottom: 30px;
@@ -16,7 +11,7 @@
 }
 
 .contact__fieldset {
-  margin-bottom: 45px;
+  margin-bottom: 44px;
 }
 
 .contact__legend {
@@ -61,9 +56,8 @@
 }
 
 @media (min-width: 796px) {
-  .contact__container {
-    padding-top: 39px;
-    padding-bottom: 29px;
+  .contact {
+    padding-bottom: 58px;
   }
 
   .contact__form {
@@ -104,21 +98,21 @@
 }
 
 @media (min-width: 1366px) {
-  .contact__container {
-    padding-bottom: 43px;
+  .contact {
+    padding-bottom: 71px;
   }
 
   .contact__form {
-    margin-bottom: 50px;
+    margin-bottom: 52px;
     max-width: 513px;
   }
 
   .contact__fieldset {
-    margin-bottom: 53px;
+    margin-bottom: 52px;
   }
 
   .contact__legend {
-    margin-bottom: 52px;
+    margin-bottom: 51px;
     font-size: 22px;
     line-height: 26px;
   }

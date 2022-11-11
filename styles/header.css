@@ -1,13 +1,11 @@
 .header {
+  padding-top: 15px;
+  padding-bottom: 65px;
   background-color: #4E5066;
   background-image: url("../img/background.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   color: rgba(255, 255, 255, 0.86);
-}
-
-.header__container {
-  padding-bottom: 50px;
 }
 
 .header__contacts {
@@ -39,10 +37,7 @@
 @media (min-width: 796px) {
   .header {
     padding-top: 26px;
-  }
-
-  .header__container {
-    padding-bottom: 40px;
+    padding-bottom: 70px;
   }
 
   .header__contacts {
@@ -70,9 +65,8 @@
 }
 
 @media (min-width: 1366px) {
-  .header__container {
-    padding-top: 15px;
-    padding-bottom: 90px;
+  .header {
+    padding: 40px 0 120px;
   }
 
   .header__contacts {
